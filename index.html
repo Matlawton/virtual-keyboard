@@ -1,38 +1,29 @@
 <!DOCTYPE html>
-<html lang="en">
-  <link>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="keyboard/keyboard.css"></link>
-    <link rel="stylesheet" href="keyboard/keyboard.js"></link>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
-  </head>
-  <body>
-    <h1>
-      Virtual Keyboard built with HTML, CSS and JavaScript by Mathew Lawton
-    </h1>
-    <h3>Features.</h3>
-    <ul>
-      <li>Easy to integrate.</li>
-      <li>Responsive.</li>
-      <li>Vanilla JS(<strong>No Libraries required!</strong>)</li>
-    </ul>
-    <textarea
-      style="position: absolute; top: 130px; right: 30px; width: 300px"
-    ></textarea>
-    <!-- Creating two divs just in case I want to add some extra functionality to the keyboard so i nested a div inside the main one -->
-<!-- <div class="keyboard">
-    <div class="keyboard__keys"></div> 
-    <button type="button" class="keyboard__key">a</button>
-    <button type="button" class="keyboard__key keyboard__key--wide"><i class="material-icons">backspace</i></button>
-    <button type="button" class="keyboard__key keyboard__key--extra--wide"><i class="material-icons">space_bar</i></button>
-    <button type="button" class="keyboard__key keyboard__key--wide keyboard__key--activatable"><i class="material-icons">keyboard_capslock</i></button>
-    <button type="button" class="keyboard__key keyboard__key--wide keyboard__key--dark"><i class="material-icons">check_circle</i></button>
-</div> -->
+<html lang="en"></html>
+<head>
+  <title>Virtual Keyboard w/ HTML, CSS & JS</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="keyboard/keyboard.js" />
+  <link rel="stylesheet" href="keyboard/Keyboard.css" />
+  <link
+    href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet"
+  />
+</head>
 
-    <script src="keyboard/keyboard.js"></script>
-  </body>
-</html>
+<body>
+  <h1>Virtual Keyboard w/ HTML, CSS & JS</h1>
+  <h3>Features</h3>
+  <ul>
+    <li>Easy to integrate</li>
+    <li>Responsive</li>
+    <li>Vanilla JS (<strong>no libraries required!</strong>)</li>
+  </ul>
+  <textarea
+    class="use-keyboard-input"
+    style="position: absolute; top: 130px; right: 30px; width: 300px"
+  ></textarea>
+
+  <script src="keyboard/Keyboard.js"></script>
+</body>
