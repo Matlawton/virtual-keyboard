@@ -1,10 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+  <link>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="keyboard/keyboard.css"></link>
+    <link rel="stylesheet" href="keyboard/keyboard.js"></link>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
   </head>
   <body>
     <h1>
@@ -19,5 +23,14 @@
     <textarea
       style="position: absolute; top: 130px; right: 30px; width: 300px"
     ></textarea>
+    <!-- Creating two divs just in case I want to add some extra functionality to the keyboard so i nested a div inside the main one -->
+<div class="keyboard">
+    <div class="keyboard__keys"></div> 
+    <button type="button" class="keyboard__key">a</button>
+    <button type="button" class="keyboard__key"><i class="material-icons">backspace</i></button>
+
+</div>
+
+    <script src="keyboard/keyboard.js"></script>
   </body>
 </html>
